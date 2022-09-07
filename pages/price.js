@@ -1,7 +1,13 @@
 import Image from 'next/image'
+
 import bagAcorn from '../assests/image/price/bag-acorn.jpg'
 import basketBunny from '../assests/image/price/basket-bunny.jpg'
 import watchFawn from '../assests/image/price/watch-fawn.jpg'
+import tray from '../assests/image/price/tray.jpg'
+import littleRedBasket from '../assests/image/price/little-red-basket.jpg'
+import watchOpenwork from '../assests/image/price/watch-openwork.jpg'
+
+
 import MainContainer from '../components/MainContainer'
 
 export default function MainPage() {
@@ -47,6 +53,42 @@ export default function MainPage() {
                     <h3 className="my-2 text-2xl font-semibold">Мини-корзинка "Зайка"</h3>
                     <div className="flex justify-center items-baseline my-2 mb-4">
                         <span className="mr-2 text-4xl font-extrabold">500 ₽</span>
+                    </div>
+                    <a href="https://vk.com/sekreta_ecodecor" className="text-white bg-orange-400	 hover:bg-orange-600	 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Сделать заказ</a>
+                </div>
+                {/* <!-- Pricing Card tray --> */}
+                <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                  <Image  
+                    src={tray}
+                    alt="tray"
+                  />
+                    <h3 className="my-2 text-2xl font-semibold">Поднос для кухни</h3>
+                    <div className="flex justify-center items-baseline my-2 mb-4">
+                        <span className="mr-2 text-4xl font-extrabold">1 500 ₽</span>
+                    </div>
+                    <a href="https://vk.com/sekreta_ecodecor" className="text-white bg-orange-400	 hover:bg-orange-600	 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Сделать заказ</a>
+                </div>
+                {/* <!-- Pricing Card littleRedBasket --> */}
+                <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                  <Image  
+                    src={littleRedBasket}
+                    alt="little Red Basket"
+                  />
+                    <h3 className="my-2 text-2xl font-semibold">Корзина Красной шапочки</h3>
+                    <div className="flex justify-center items-baseline my-2 mb-4">
+                        <span className="mr-2 text-4xl font-extrabold">2 800 ₽</span>
+                    </div>
+                    <a href="https://vk.com/sekreta_ecodecor" className="text-white bg-orange-400	 hover:bg-orange-600	 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Сделать заказ</a>
+                </div>
+                {/* <!-- Pricing Card watchOpenwork --> */}
+                <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                  <Image  
+                    src={watchOpenwork}
+                    alt="watch openwork"
+                  />
+                    <h3 className="my-2 text-2xl font-semibold">Часы "Ажур"</h3>
+                    <div className="flex justify-center items-baseline my-2 mb-4">
+                        <span className="mr-2 text-4xl font-extrabold">3 000 ₽</span>
                     </div>
                     <a href="https://vk.com/sekreta_ecodecor" className="text-white bg-orange-400	 hover:bg-orange-600	 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Сделать заказ</a>
                 </div>
