@@ -38,7 +38,7 @@ export default function MainPage() {
                     src={watchFawn}
                     alt="watch fawn"
                   />
-                    <h3 className="my-2 text-2xl font-semibold">Часы "Оленёнок"</h3>
+                    <h3 className="my-2 text-2xl font-semibold">Часы &quot; Оленёнок &quot;</h3>
                     <div className="flex justify-center items-baseline my-2 mb-4">
                         <span className="mr-2 text-4xl font-extrabold">2 500 ₽</span>
                     </div>
@@ -50,7 +50,7 @@ export default function MainPage() {
                     src={basketBunny}
                     alt="basket bunny"
                   />
-                    <h3 className="my-2 text-2xl font-semibold">Мини-корзинка "Зайка"</h3>
+                    <h3 className="my-2 text-2xl font-semibold">Мини-корзинка  &quot; Зайка &quot; </h3>
                     <div className="flex justify-center items-baseline my-2 mb-4">
                         <span className="mr-2 text-4xl font-extrabold">500 ₽</span>
                     </div>
@@ -86,7 +86,7 @@ export default function MainPage() {
                     src={watchOpenwork}
                     alt="watch openwork"
                   />
-                    <h3 className="my-2 text-2xl font-semibold">Часы "Ажур"</h3>
+                    <h3 className="my-2 text-2xl font-semibold">Часы  &quot; Ажур  &quot;</h3>
                     <div className="flex justify-center items-baseline my-2 mb-4">
                         <span className="mr-2 text-4xl font-extrabold">3 000 ₽</span>
                     </div>
